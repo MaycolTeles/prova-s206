@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"prova\/gorest\/gorest[1:6]","start":1701738655607,"end":1701738656316,"title":"prova\/gorest\/gorest[1:6] 22:10:55.607-22:10:56.316 Testando retorno 200 para users"},{"id":2,"group":1,"content":"prova\/gorest\/gorest[2:12]","start":1701738656320,"end":1701738657555,"title":"prova\/gorest\/gorest[2:12] 22:10:56.320-22:10:57.555 Testando retorno 200 para usuário com id 5710543"},{"id":3,"group":1,"content":"prova\/gorest\/gorest[3:20]","start":1701738657559,"end":1701738658951,"title":"prova\/gorest\/gorest[3:20] 22:10:57.559-22:10:58.951 Testando retorno 200 para posts com id 1830420"},{"id":4,"group":1,"content":"prova\/gorest\/gorest[4:27]","start":1701738658955,"end":1701738660184,"title":"prova\/gorest\/gorest[4:27] 22:10:58.955-22:11:00.184 Testando retorno 404 para usuário com id 999"},{"id":5,"group":1,"content":"prova\/gorest\/gorest[5:34]","start":1701738660188,"end":1701738661414,"title":"prova\/gorest\/gorest[5:34] 22:11:00.188-22:11:01.414 Testando retorno 404 para post com id 12"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

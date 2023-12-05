@@ -1,0 +1,3685 @@
+21:54:11.380 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:11.621 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:11.700 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:13.372 [main] DEBUG com.intuit.karate - response time in milliseconds: 1664
+1 < 200
+1 < Date: Tue, 05 Dec 2023 00:54:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c3c00f3e-0ddc-42fc-87af-aea5bd558cc7
+1 < x-runtime: 0.047816
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nyEAjdMtZmn9YudKLahiZw77KZErtcoH0B%2FEySLIZfC6EVQBolAVZhNYRP2r%2FMImntp%2BtJGFz6N3WbE44%2F5mPBQWlbotenzbftZpaz6wSGLmnuLCKo%2BuLKEOsZPsT9k%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830851077a8702ed-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+21:54:13.378 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:13.379 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:14.623 [main] DEBUG com.intuit.karate - response time in milliseconds: 1243
+1 < 200
+1 < Date: Tue, 05 Dec 2023 00:54:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: bb5b7571-4c39-4292-b1ee-a4b1d8a55f2f
+1 < x-runtime: 0.016238
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oRUuxS%2Fgh2o2ftBelGQ24cfFHF6lRrQJ87D%2BE4M1ikmfGV1F8hkQoD6itKbHfgvxGkd2mRCKy1rLol6NxqYdTZHWebyYo%2BpZ2AuRQ%2FU1QmbD4x3QQP54xyMxYO9hk1s%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085111987901c7-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+21:54:14.638 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:14.639 [main] DEBUG com.intuit.karate - request:
+1 > OPTIONS https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:15.032 [main] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 404
+1 < Date: Tue, 05 Dec 2023 00:54:15 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Origin
+1 < x-request-id: ecdc930e-7a30-4f83-9afb-fe6cf2c54e59
+1 < x-runtime: 0.003862
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T8EH633yXfkTjBsSJ%2BV8St2UEe14OVjOgDOXgZYNnYc1fShWdyRE%2Fm0t1GEnn4a0hm6Oa5sD3MO9UHhUtKXz0L4wnzjhhUcMIzWkf6sTF8okJZ3o9eaWwWZp%2FGYp9uA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085115df0e77f0-GRU
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+21:54:15.035 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 393, url: https://gorest.co.in/public/v2/users, response: 
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+classpath:prova/gorest/gorest.feature:24
+21:54:29.770 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:54:30.024 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:30.103 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:31.431 [main] DEBUG com.intuit.karate - response time in milliseconds: 1320
+1 < 200
+1 < Date: Tue, 05 Dec 2023 00:54:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 488ef8f5-ebfe-4a24-b371-d02711221f93
+1 < x-runtime: 0.033560
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hITofvJLubjfjLeeim6AupTvCN%2BmxdBYdHlnBdYTySgmFN%2FH9ToGhtljULCbfQeFUsKk5fzBf3YJipS4xGgzdqO77E%2FYWe2ny549%2FArGiXRyMUINZ4YYCcht4QEK3hs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308517b0e842a20-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+21:54:31.436 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:31.438 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:32.504 [main] DEBUG com.intuit.karate - response time in milliseconds: 1065
+1 < 200
+1 < Date: Tue, 05 Dec 2023 00:54:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 2a2e557d-4158-470b-b123-404cae4f96bd
+1 < x-runtime: 0.016169
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I8Z%2F3NNKZjTJ6nCV%2FMaahYiELN6gg%2BA9vozUvDJq%2FyzG9aQx80gTkPLON6BazM%2BM7UHUoajc6MiJvvVQeonCG0%2FOkR3dvuiW7AjtmVK2cCQWeT9MU6Z%2Fbw%2Fl3Eo%2FVEg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308517eda800180-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+21:54:32.525 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:54:32.526 [main] DEBUG com.intuit.karate - request:
+1 > OPTIONS https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:54:33.668 [main] DEBUG com.intuit.karate - response time in milliseconds: 1142
+1 < 404
+1 < Date: Tue, 05 Dec 2023 00:54:33 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Origin
+1 < x-request-id: 4634256d-c315-4f95-92c2-952306c03509
+1 < x-runtime: 0.005928
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cTTNzKsNB%2BHUGgbYvfIcRDUmdEo5qPFD2DWJ8vuFKR0vkdQgZIug5pNp5MrRGozSRc6Kc3ZINWzcBcuxLP8wfhri867H2toXQLD%2FVXTAEKQc%2B3ruf4OEMfMMsAnnypQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308518a286f0a7b-AMS
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+21:54:33.671 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1142, url: https://gorest.co.in/public/v2/users, response: 
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+classpath:prova/gorest/gorest.feature:24
+22:00:04.185 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:00:04.424 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:04.500 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:05.756 [main] DEBUG com.intuit.karate - response time in milliseconds: 1247
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 498e9060-279a-4744-8402-5049a53880f6
+1 < x-runtime: 0.048341
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BJRkjJ0JT3etyRN5VbGLaVSrygmtqj3UxGRyhEuSWa39SP1O%2FKwlBXbvMOUV%2FC0J88XsI7IgKj%2Fd%2B1IkEH2G393Z0%2FPtHMFNBW5laLw3b4rLq%2F8CtjBZquTbwurLf%2BQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830859a43e4ed66a-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:00:05.762 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:05.763 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:07.046 [main] DEBUG com.intuit.karate - response time in milliseconds: 1282
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: a889d8d1-11f1-42b7-bf9b-17bae835c05c
+1 < x-runtime: 0.027554
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E2Kp6K8LsM6rLMq22Wij3oSNi865JHqsjFTOPaq0HNbMloKWUkUgeaggxK553PVaCoyzRcMBZ02dpG2eXlx1PTW6OXQEpNk8RSWmmx9G%2B2upbJqXPeBWOoXxC8aU0Zk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830859ac19cc0a70-AMS
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:00:07.058 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:07.060 [main] DEBUG com.intuit.karate - request:
+1 > OPTIONS https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:08.204 [main] DEBUG com.intuit.karate - response time in milliseconds: 1144
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:00:08 GMT
+1 < Content-Type: text/html; charset=UTF-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < vary: Origin
+1 < x-request-id: 13e2b242-5d0b-4aca-bfc2-dabb93135ef4
+1 < x-runtime: 0.005972
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=N%2F9TCSMEVtWAe9cV6Jje7Gm5RjnqzAuVsQlW79ZGwV3csmpKHsZiupse30l5g2%2Bmni6wSy9dYThCaw%2BjlyUYgd3dpwHbjO%2Fn%2FzY5GMGkWSOQBv4msTNfplCUo4jALVA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830859b08e3da4d7-GRU
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+22:00:08.206 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1144, url: https://gorest.co.in/public/v2/users, response: 
+<!DOCTYPE html>
+<html>
+<head>
+<title>The page you were looking for doesn't exist (404)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+<body class="rails-default-error-page">
+
+<div class="dialog">
+<div>
+<h1>The page you were looking for doesn't exist.</h1>
+<p>You may have mistyped the address or the page may have moved.</p>
+</div>
+<p>If you are the application owner check the logs for more information.</p>
+</div>
+</body>
+</html>
+
+classpath:prova/gorest/gorest.feature:24
+22:00:19.334 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:00:19.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:19.657 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:20.795 [main] DEBUG com.intuit.karate - response time in milliseconds: 1127
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 32b71ff0-01ca-491b-81f5-62cf3b3a727a
+1 < x-runtime: 0.048369
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Y53P0i6imMQJvOwlTEpSPP62A9sQxz418oKOF%2F7iwxfEQ1AgzqBgd7hWXHMdyl7YXp6jBRIXL03I6IShtrPlHAAlF7Khr2etMkEYi3M0RwqGZNgPU6CJD2xNCuA0vrA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a03ec17b8b2-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:00:20.801 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:20.803 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:21.923 [main] DEBUG com.intuit.karate - response time in milliseconds: 1120
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 14a6e598-9453-4ee7-82d2-619e014723e7
+1 < x-runtime: 0.015651
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kGFQGveeHtd%2BqD7G4l6sKbHnFB2XXh%2B5X0gL042tGWdukDQjLsR2gEPZsCk5lQASyRUGGM9F7ykzVbHRx%2FKPjKtPsuWi5rV4M2ObJbp0P11ZJyqAKm5CRiuvpXZdGl4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a09fe1ad39b-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:00:21.935 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:21.936 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:23.012 [main] DEBUG com.intuit.karate - response time in milliseconds: 1076
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 8a78fd84-ec4d-4fba-aca7-a96f2327917a
+1 < x-runtime: 0.039210
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9PPXS3x4vnQb1n06H33TqaXT%2FSx5uHAdcBP%2FmXEODkpahiK9FDotzwhCSz4uEL2JN42cWkn0ORq58733utcx0HIXqYi5c%2BFYE73JxDvU8LzVOsIRcDBQvWFEpGmy578%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a0d8efe028e-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:00:23.015 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:00:23.021 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:23.022 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:24.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 1241
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:00:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: cc5a7758-e98f-4d0b-a34a-4a7954505cdc
+1 < x-runtime: 0.025100
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yG6F%2BSadUqyOoIAU%2Fo5IsLXTwwvsBKXLSCyA3YsCNIyjA9LccMlRIOsJlD7LVvWAXstqCYCpVp%2FPmgiB7aTIvFlF1FqSM2GiWOFjWbqzvxEPIpLAlilqwsqWzBLE2Nk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a185ce702c1-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:00:34.113 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:00:34.356 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:34.437 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:35.963 [main] DEBUG com.intuit.karate - response time in milliseconds: 1518
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 8eacedf4-3a7d-4ec0-945e-164692beef10
+1 < x-runtime: 0.055122
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZoePjcDlIzryX3xIjcRNIC0IY85vHtRGncwMv9SaDU94G9tfToIVDZvmRAg1qEWqNPz%2BS2OImYI%2FaWpza%2FKic5SQ%2FMnSahWyJUQpwDkYkERCmUEelA83RW0J8Qovql8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a60182f6614-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:00:35.969 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:35.971 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:36.820 [main] DEBUG com.intuit.karate - response time in milliseconds: 848
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6c14cf58-1935-4bd7-a190-7ca0a826efb4
+1 < x-runtime: 0.027555
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=obkZ5QCSHiQcnStVY9oOqbtieVySMmnW8wlXICfqnX0WVBkhnUWTHUHkSBTOYFWFf916kZ9ZNf01nSL1rljKanBvYn0YSkGC9IxnR93hsXnoJ2LN0p1mbeY51O4KnkQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a68aac801f7-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:00:36.834 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:36.836 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:38.238 [main] DEBUG com.intuit.karate - response time in milliseconds: 1402
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:00:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 96f8589b-b6c2-4dd7-a224-7071e5ed40b2
+1 < x-runtime: 0.026038
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QUcUb3xz85vPQgnkAAt4mIsgKLX%2FhGGbTzPaV5fbG0fZ06KqHX0y1a1tdbS3W4q0gUoNKvstNvNf6Qa0Vjhoy155Nja%2B%2Brfb940p%2F%2BhZ2XGzX8Zr4oyYnb59Q4cVqng%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a6e9c23671f-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:00:38.245 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:00:38.250 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:38.251 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:00:39.306 [main] DEBUG com.intuit.karate - response time in milliseconds: 1054
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:00:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5ae17c1f-d68b-44ab-a5c5-ccd1659d213a
+1 < x-runtime: 0.017031
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7miFYXsKE0k%2F8ATZKRVlHCe9G%2FOEWMuH4IW2n5u5e59%2BzlLEjplDIGHiUY5ROUkB2yGOWozvO6Q2vWizff1lwYyqi73OK6RrEcbvpFpF6Yz9ROv2AnYbmkfGdsfY310%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085a73a9562565-GIG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:01:20.118 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:20.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:20.439 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:21.633 [main] DEBUG com.intuit.karate - response time in milliseconds: 1186
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 50966ef2-a22c-4b41-a912-11ab9b009ab2
+1 < x-runtime: 0.034939
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ww7O%2FWlFzyaXHvD2%2BWDgZEiQD%2BeoomgjJpdWYo9yelzDnMQBqqzpWifQbiTXPOjffxumHbzfHogo2iZ1kRCbM7Wlt%2FQ%2BLiTvy9GGI3yvOFo0O1l%2BBpd5Kl9kIjF0iqU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085b7bda7664c7-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:01:21.638 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:21.640 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:22.741 [main] DEBUG com.intuit.karate - response time in milliseconds: 1101
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: efc4385a-0903-4c1a-8372-9452aaef3051
+1 < x-runtime: 0.028795
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UJf8EutLMH37taozZhKEw7bPpbvvWEJds2%2FFDWHfwTGvtWJaodvjpB%2BUYEdElHMpoCy86oJQn18tkf9PtABBU8OY32WZGTcxpZygjJFkutOsmcqPXgMqPIjd25%2Fhn3M%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085b82a9b70303-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:01:22.760 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:22.761 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:23.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 1180
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ae04447b-efc6-434b-97f8-ee0953622f4d
+1 < x-runtime: 0.028085
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b2JMenaltTWlBHykx4Cw%2FUdP7s%2FjsRnsbc22zKROjfO3sLuGvQKxMiEfsfzPglBVXlIxnoyQ2JRxS1org32W2uzarBBzTixA%2BSRB0HFwQJVja17Ge42HUMJ%2Fgri6UJM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085b8d7d872a7f-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:01:23.944 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:01:23.949 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:23.951 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:25.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 1155
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:01:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6d67a973-a7db-4111-81ee-d6fe5a2aada0
+1 < x-runtime: 0.015902
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kQfMh0aWCQPjXmI%2BEPwnBRk12Op2eqgbQz5AGwBwad7fUCVlfn3ddK8%2Fa1dUw3JQ8VOl%2FWP9cTeX9XrSdzvLsJQuM1zzUgXDfaaL2mnaVOF0lvKyHH9QIXukG8%2B%2BBlI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085b911f461aec-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:01:48.253 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:48.494 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:48.574 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:49.664 [main] DEBUG com.intuit.karate - response time in milliseconds: 1080
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 28257752-567b-4c5b-862b-b8107f61235a
+1 < x-runtime: 0.033694
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AQUto2qwmb%2BO3qcMXBewnQSLWrddLuYZo9JEUpRvTX8rIsPrFn3fbZprOTLo7IlXOfODt2USp%2F%2BVDqsMkBPhofmqP%2BzBPrzMn1uitRt4RgEZmXh%2FAq0v%2BiotfTb2krY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085c2f6a7f0bd1-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:01:49.670 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:49.672 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:51.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 1445
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 15114397-e5f9-4e27-beba-78be75641a4a
+1 < x-runtime: 0.027103
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vWypsuspLf5tt9AEtgMd2dGKxCdXoF1IIONMJzm5RGzkNggZNq%2FlNYx%2F%2BF5BeEEf3LPf4aiMk3QRdDF3%2BzUib7ZQxTUxe0nOci1hETLafXW3I1Q%2BKglw1F4Rxu4e1Ng%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085c34ca188da8-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:01:51.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:51.137 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:52.166 [main] DEBUG com.intuit.karate - response time in milliseconds: 1029
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:01:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 0c25f89e-a5f4-48a8-9cec-04534c10e92e
+1 < x-runtime: 0.026860
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F96HabaE2mfZ57GAF4DbqJ483j72%2B08%2FzImPXmdG129vKWnlgi8plBVgMLOQxLBlr1uFxSdZSf8UVsgiuz4l0mg6%2F%2FY7DzsB9gJyWA2eVMZXKdtGqv56iSZarDfZJWk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085c3f3d3f6690-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:01:52.171 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:01:52.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:52.177 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:01:53.346 [main] DEBUG com.intuit.karate - response time in milliseconds: 1168
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:01:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d00fd334-3730-4534-be1e-f58e05ee0d96
+1 < x-runtime: 0.014582
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hKAO2%2BiOC0A2F%2BtHK7bb185K%2BacmxpRcgDrOl4GSQHF9eatA2zL1KHz0erOvqWr6AO0ebdZBHJm7GgnO5%2F%2BTPE1lB08ZHSCWyJlnZRHax2I2lf6XYGJEhVcZFISG3Kc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085c452a9ed632-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:02:04.032 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:04.276 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:04.355 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:07.422 [main] DEBUG com.intuit.karate - response time in milliseconds: 3054
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: dda08718-9ce9-4c01-9558-c3ad16a615a3
+1 < x-runtime: 0.075907
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qYun%2FUXfzYEN1ly1x9BoMp3AOt7mD2H%2F1bBAKB7hJfDimqvRq88HdzIdyF8WGZ8ZrkMz5R5sZ4pufjp9jypWbrNTcUllKxHdQRP9pTF5GBrpaK90I05BE6WiIFAWih4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085c920ab0b776-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:02:07.432 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:07.435 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:08.459 [main] DEBUG com.intuit.karate - response time in milliseconds: 1024
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4165e57a-d3aa-4c8b-a0e4-e92b60734141
+1 < x-runtime: 0.027058
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VJa%2FlzADi%2FSo8gi%2FCN34oHvFjvVI0tebY0%2FHbQC0ScBJ5dE0xQRqWSUocMnr%2BecFSyhCPU%2B9ymgMM3CZ%2F5KWa51w1d8KVwg4mhcXgAHW4zEwSJgf%2B3%2BBhlnUCEItgkA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085ca5092966c8-AMS
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:02:08.472 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:08.474 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:09.389 [main] DEBUG com.intuit.karate - response time in milliseconds: 915
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 2d9a19de-4e1e-4a73-afb5-e6216b875eb7
+1 < x-runtime: 0.047178
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u4egpqoz8Z%2BQBA9Eh4yiF6A6wxj8M%2FMfIU8nzeU%2FXEGgB%2FGQZa0nk9JGEBkT0a%2Fv1u%2BYS6nCJQL3JRPqz6r0j9wL27WrPfCPYtkw2SMq5f2SEod80vSYfIn2IBpDqEc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085caaca9a66a0-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:02:09.394 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:02:09.399 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:09.400 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:10.469 [main] DEBUG com.intuit.karate - response time in milliseconds: 1069
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:02:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fb9e6152-8c1a-4cb7-b041-b0962e2121a0
+1 < x-runtime: 0.014484
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=t4qDq1wcH2jJzVr%2FbaMN6aHIz1vNa%2Bk63GyPG9W90cROea%2Bg8Py6a08kBNaJDmLt2EQgfpenswQ2BCIWgZrCDM04wnEpp46MaX%2BscGy2speVr%2FxZJsDKhNRmg0%2FGkXg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085cad2eb5a6b5-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:02:40.855 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:02:41.101 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:41.185 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:42.491 [main] DEBUG com.intuit.karate - response time in milliseconds: 1299
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ad57e5f0-0f4e-4335-a7d7-98a7da73014f
+1 < x-runtime: 0.043922
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UCu%2F1jKVwyxd%2F%2FcP8OiYRvC3anIhsL1S4%2BwiP%2Bx7SMBxoVPsqolpFw54eb%2BhioUW4c2zv%2B0bxQUi6BALO5%2Fncnr3yiT08r9FOX1qmz8qkfXHnMPjt0VS6mrvv65aFEI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085d77ed41d373-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:02:42.497 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:42.498 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:43.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 850
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c70cfadb-58ee-41da-957c-25294c81c3cf
+1 < x-runtime: 0.028505
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=voNazIMgxVvg4fE8ew9vCuTsEzxSbxcrOCNe1tSCHHr%2BFacoMNv3QJRR3uku8cxYlzpAfni0h8HHazRKX5%2FMc%2BhspY3%2BkwdJkma2LaxIgx9H%2FI%2Ff8Y1vTHI0StEA8yI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085d7f7b4302a8-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:02:43.370 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:43.372 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:44.159 [main] DEBUG com.intuit.karate - response time in milliseconds: 787
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:02:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 31571b4a-beb0-4a11-9489-7dc820cfab61
+1 < x-runtime: 0.042756
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=avNONgQIEqfKJw25U%2BrqShxHIOkmXAaZAQAUoXFi1WTPswrPZpzt65Dkglu5bebDxInn3ox6YrmQP7bSDz16uGYnVfY%2FW02Xduz27ucVk9%2Bw%2BMilsk44BF%2Fi8KqMCRE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085d83498b31d7-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:02:44.163 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:02:44.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:02:44.178 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:02:45.285 [main] DEBUG com.intuit.karate - response time in milliseconds: 1107
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:02:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c0c3592f-a773-4676-9c20-0a730e8e5522
+1 < x-runtime: 0.026208
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W6hPE2%2BXk3LAqJi0%2BbdEHUtELf6iuKlTE02rVFF%2Fn%2Fp%2F3dExIXKPAhT6Bz4Xre0CHgEeii4F%2FAGIv5cyPwlgqPXAvogjmkpeufxVoDv2lN71Uhn5uMhL25FUdrif6Q0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085d868a48a6c6-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:03:58.170 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:03:58.409 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:58.488 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:03:59.634 [main] DEBUG com.intuit.karate - response time in milliseconds: 1136
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:03:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 25e4b23a-56cb-4758-bfd0-656e95a42826
+1 < x-runtime: 0.035431
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c0NkqPiu2L%2BtvKavDbGrFFp7LYvMalIZwpQc2P5%2Fp3DTRx6f8nPyVFG7Vw2eooj9tEVVQetZv9UfsS6D%2Bg7kzgkQa480Jq%2BHvKxMjOMNB9xXfIKZHBeyYzUNEPdcpFY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085f576d41650e-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:03:59.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:59.641 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:00.754 [main] DEBUG com.intuit.karate - response time in milliseconds: 1113
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:04:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 76bfe3b1-99aa-45af-86cf-f9351925cc89
+1 < x-runtime: 0.025061
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vSbpBxb9z5nKeSvSxntg4Dt45EMxFjz2Xd1piSH6Hmv04Y%2B7SENdgn%2FXYYVzkgxEprPepDndNrl1BsICpt4xqSUQfjiwugsAiifAeZsvEfWsxOClxstx3NgPvVV%2BGD4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085f5e39230139-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:04:00.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:00.772 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:01.366 [main] DEBUG com.intuit.karate - response time in milliseconds: 594
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:04:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 8e4ef22c-937e-44ef-8f29-8f27ef95baf3
+1 < x-runtime: 0.040615
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nZyav%2BO34KtSWWzeEtVMzKCInTccqnIThP0pE0Q6sH02c6BViVih%2Fgyp4PssQI%2BTBLzPqqqnxnqhVesDBVXUxRsJUuV5O6NV8l3VTJ5Zm2yswhYZrrFOXr5yJ%2BDh0Fo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085f656d911d5c-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:04:01.369 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:04:01.375 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:01.377 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:02.699 [main] DEBUG com.intuit.karate - response time in milliseconds: 1322
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:04:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: aba364c5-35bc-4815-9dca-d4f92d5fe132
+1 < x-runtime: 0.027727
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=azniCbPnUjOe54HmhaM80mSBBRW0sxsCTtcWZczE39J%2BY3IUQ3TAy6gvsLgRBVLKPLf6YhV7HIUKlevG9Uxizc7ngUWObRWKeIUBXra1ZB7cOUGZnotyJKEXN%2B8ljFc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085f6d5a6ed404-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:04:09.140 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:09.385 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:09.464 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:10.784 [main] DEBUG com.intuit.karate - response time in milliseconds: 1309
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:04:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 38f6620a-8f61-4e44-acd1-2e1409a3de53
+1 < x-runtime: 0.049909
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7MKsMVXWau3XwttsuyVeLwSc9wrWmVJOUxH3vjlJS1Uh0XQlC9g3upScb22NiJQbR5sOKJBmFIZyyez2BYbZEER9XCzV2Jj8ke5e%2BQzslojn7hitBpJMyt1ayhpV6rE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085f9fe919d383-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:04:10.789 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:10.791 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:11.915 [main] DEBUG com.intuit.karate - response time in milliseconds: 1124
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:04:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f7474321-3011-4a31-a490-9f3164a0886d
+1 < x-runtime: 0.014160
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TckGdQd3f5e%2BBvSfZh2D6CbUolp1PjLP2YJi3WELpYPDox52xkxk1Ye6xBcWn%2FD%2FN3HaGGLYN4uRnI7nqMSs4Wpx6rJiNawJWOCYX3yvtpAXeyn8LI9e8mircbGMuGg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085fa73fe20286-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:04:11.931 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:11.932 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:13.144 [main] DEBUG com.intuit.karate - response time in milliseconds: 1212
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:04:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 466fb150-9636-4f21-9989-d00f7c509e38
+1 < x-runtime: 0.041253
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4MyBwoG4M2LAKEizwbHOQOUi1hJ7qo0z8OXqTWV8Kv8aWMdbDgnNzB7zJJqhQluXAfwV69rZatpQDaaZO9uOMDbbD%2FSP8qucCAvj7RL7z4GnLO%2FUJnT2bmFKF2WFTJw%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085fab7b6021d5-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:04:13.151 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:04:13.164 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:04:13.169 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:04:14.475 [main] DEBUG com.intuit.karate - response time in milliseconds: 1306
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:04:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e3e61431-ff1b-48c2-931a-5e3850fd790c
+1 < x-runtime: 0.023097
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H5geL%2FUqTGXgitrjLq6iCCgtGNtBiz3mc8hvHk%2BMU0uayj9ntwqRQIhmnFSD%2Fv%2FuuOyl%2BDzUkk8vd8LN7KGKIgN4nN5QnDa0HZdY9Ykhgmwo6vOUMu1OYOqQuwExXrU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83085fb70ae4048a-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:05:38.536 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:38.789 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:38.873 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:38.883 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:39.133 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:39.225 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:40.289 [main] DEBUG com.intuit.karate - response time in milliseconds: 1390
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ab2b03a4-9ecd-4ae5-8e46-77e2001a999f
+1 < x-runtime: 0.033348
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ebUrKxgQN0udpaC7allgQ5SDAOTjVjhrvNpriX%2FoYjW6s6MJLVx9IDbpuTpPnCb2qgt4QLjyG1z1ry5ETyjbOF6idv7sfEu%2BjGTp2elJKeHxf5RcuyGfOy8%2B0wvVaWU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861ce6e9828ac-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:05:40.312 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:40.316 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:40.513 [main] DEBUG com.intuit.karate - response time in milliseconds: 1276
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6c4f8d44-35fd-4cca-a6ce-d3399ceb4946
+1 < x-runtime: 0.029903
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OxBqwE26JdjJO3zXvafQbUak9UzJcNbAoCjgtHzSvK9k5LiFo15ArduHBOt9%2Bxz9GutC00OOS3zK0cYgtRDgS%2FFKhpam%2FbEw%2Bxo6DHO%2FM75s%2FYzI7WqjE8xRuGJVU6o%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861ceca6d9acf-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:05:40.518 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:40.520 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:41.002 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 8b6308ee-0cb0-4626-905a-544ce4f2a89a
+1 < x-runtime: 0.016102
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sVGiEnL1SCEZr90poZAVtG%2BzowVgmAGZjeNCc4jv4SEe5Aa8LHH9aWcICBVkpisApGJRQi1OoLJEGlXAsFxs114YeUy2mhm%2F2aSmECcY4zZxv9tXrebiaLgKzsv2YJs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861d4bf9d0322-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:05:41.017 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:41.019 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:41.415 [main] DEBUG com.intuit.karate - response time in milliseconds: 1098
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 81aa6b31-8f9d-4e39-a52f-58d57399d57f
+1 < x-runtime: 0.016092
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vk6AQ4qk2OCnSdmveJF7IeyLswuyE5nc0B5AoqTmwQraVwNO2b%2BoPJpGW%2BzE7gQN6AEAsgTf6TVaUAVySTfJRAIWiS3sSugksONq7JH6iC4iCYlEloaFQbwnflOLzgc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861d6ece4d3b3-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:05:41.435 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:41.437 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:41.868 [main] DEBUG com.intuit.karate - response time in milliseconds: 431
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 0b5bd481-47cc-46c1-8edf-196fd021c85b
+1 < x-runtime: 0.027712
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1HTc%2BcLwDCuENiWWYGX3tVDYFG4n5bpb2YbS9fIo8lWOX33GFyk6EWCrix4oZDOt%2FXSONAbPErpbyumLi%2BnrF85bqqJbTseHAPEy6r7wEDt1Nl%2FRbgbZa8%2FuLVPgD4c%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861da9a1164f0-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:05:41.873 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:05:41.879 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:41.881 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:42.482 [main] DEBUG com.intuit.karate - response time in milliseconds: 1462
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6a728f94-cdae-49ad-bb09-d05837e3505a
+1 < x-runtime: 0.024677
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=U%2BvHiyC5Zdqahq9n385XTA9E%2FWFUYNazIOh4lnzO7QC097wp%2FpV3wzf4ceOW9Fxzl%2Buf1rgzxEC4%2B%2BJG2nBBGgn4PICtd1bPL9fh%2BtPUsIbrtIZH3hqt1TTz6S%2FKYqg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861da8a696dbc-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:05:42.489 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:05:42.507 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:42.512 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:43.051 [main] DEBUG com.intuit.karate - response time in milliseconds: 1169
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:05:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 58fc8fc7-9d82-4816-9c80-cb25ae026157
+1 < x-runtime: 0.030411
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4VMBCA%2Bng8vXelTdoy%2FLT6yxd%2BehBLRoPWz7Prrexh4WHYU2FTxdSJK1dbQX9%2BsF6VwnfIYTAFfisnaQyrmDy3LafZ2Jxzguurd%2B2bW6xMs8Tvs3QkEpiUlBPdu3Pys%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861e0cdadd34f-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:05:43.765 [main] DEBUG com.intuit.karate - response time in milliseconds: 1253
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:05:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 98c30e61-7d9f-4790-a3f7-b65f10ee76fe
+1 < x-runtime: 0.029075
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FpW%2BLFglfWoEh4AtqYP0POFb1EZoBG0aE3HHSwlyAdV1TOn699SUEPjBzwOdMqloH7cP%2BwkseZmeLzQtY7WiUlI34v3ghjgfQFXv051cvIyi8aEehpyQ9BNxNWhUcsA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830861e52decf19a-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:05:47.248 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:05:47.498 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:47.575 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:48.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 1226
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 3513cfd5-703a-40c2-a13e-f3c28cd6de7d
+1 < x-runtime: 0.033525
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dp5dTal4Vsff1OvziwnoGibNpx%2FUUoz2Rn8%2BtlfJ%2Be0whDUJOd6oClXb%2FuDkEwv5MJu3xL78nkfiGIXL0Z69AbafPsoFs9en%2Flu6C1FTImNuIS2%2Br166K1Odp0VG4yk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830862011a1000e5-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:05:48.828 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:48.830 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:49.972 [main] DEBUG com.intuit.karate - response time in milliseconds: 1142
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: daa624e1-67ec-4bce-a5b8-a3638865acc5
+1 < x-runtime: 0.018247
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uKrVit2TSWXzXOE8kpJoYwMaaAcMZ41OmsGdqeOnTXcpdYDuro%2FwDkpMghYsMmfa7n6ZQjTdrpkSZ8NXcN3vLEUUyEGg%2F1RfjDPi9LrOt9erXT9jTPuDG4DfVfAlgow%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308620c3dab2a2c-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:05:49.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:49.990 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:50.933 [main] DEBUG com.intuit.karate - response time in milliseconds: 943
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:05:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 571943b7-d239-4cab-b0c1-acd6f8976c9e
+1 < x-runtime: 0.037401
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AXvYMJ3t6DixINADa9mG%2FYtzuVsJcxEk714s30Ct5PqXmHbEnKOgLA3PY1v%2FlcOwpy68O1Z6f7Pi6HxhSHmQSezwuZq6Qsts9pR7%2Bc%2BQ9tX4LhwA74txX4TGYvGMzNU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308621329050e20-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:05:50.935 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:05:50.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:50.941 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:05:52.067 [main] DEBUG com.intuit.karate - response time in milliseconds: 1126
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:05:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c42e53b8-90a9-49a8-8bea-fd6f27356744
+1 < x-runtime: 0.028013
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ri6eYMmaJvTM34xiyUClxQimAQ%2FWrl14iEYX3FJSdInB4FD4E1W2j4%2B05BIHeVJCKjBvS7AX2LU9IqiyYoaOe5R6toTGZ%2BU7dQKL%2FuPCiZrebTnXaeSv86mjGVkGq%2FM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086215d8b3a5c5-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:07:18.732 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:18.976 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:19.056 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:20.312 [main] DEBUG com.intuit.karate - response time in milliseconds: 1249
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7986bee8-2e22-4357-95dd-cd7b3e3f12bc
+1 < x-runtime: 0.033389
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EVQHWo8RlDh9D%2F5D%2BmESqaz8sBqYn2Q6sbayxdQ6WpQKX3u6ozvcyOKBeMEU3WnOBOcrexCTmPFnb%2BN34lBJuTvqzB5qvxM6XRRkYfETHAoi66JZNhFg08B4t%2F5dkNM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086440cc2cd578-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:07:20.318 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:20.319 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:21.514 [main] DEBUG com.intuit.karate - response time in milliseconds: 1194
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 15d54583-cff0-472b-99d6-d43fc55a81a8
+1 < x-runtime: 0.018739
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AYyNmGnSzGmIKZkDyF5zQ5lELNngjp%2BPkfDwghMx4U8FyecVJQtm8%2BG%2FdeV4N8b0QCyaQ5eqJi6S%2BOlwdlz61Snnpq3L2E5UgDwC97bnFM%2F7YbaXsdjyMDCVPgjZd%2Bg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864486a060274-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:07:21.532 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:21.534 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:22.791 [main] DEBUG com.intuit.karate - response time in milliseconds: 1256
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c910f077-da12-4b6c-a1da-ecd89ccd395f
+1 < x-runtime: 0.020931
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Qd3PEJfcIXMxzeO0KvTRqPDR9dPAP3NsZcIgbNCUUikZz8GFGjgIiKZ7dE6YxFGjcDfmu1KlGn72%2BKoWTD%2F9mBS5ycf1r6V4ndEJCetqTSQ7s630z4pIXUZrYgAJk6A%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308644f6fa11cc2-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:07:22.795 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:07:22.799 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:22.801 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:23.914 [main] DEBUG com.intuit.karate - response time in milliseconds: 1112
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:07:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fe32d92c-c851-4014-bfdf-c0662a620de2
+1 < x-runtime: 0.025579
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OIQCMv278MWSvNfLKN2q1NFwSC6EJadGZmlDw1yz%2BkaQDYt50fFIY8BO%2FKLT%2FKs5fNas0YPBEpmnQmUPB6rocn2XWkG81LgU9N2m6uvfog7PQE7HU7qQcgVnjoIhsRY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864584e50b914-AMS
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:07:38.921 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:39.165 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:39.243 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:40.505 [main] DEBUG com.intuit.karate - response time in milliseconds: 1251
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: c0c86895-97da-4875-929a-6a5f6be72ed1
+1 < x-runtime: 0.026295
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VROc%2FfO7jTnfESn86o9fYxa7BuDwzxjWYX4GyexxWsne27U7PHkv7%2BNAmdo8Q4C4k%2FS9iHIT3OdYu3qR6lNAhUkXrIzenAYOxdImjFwQyIkBfeSqCLYAb4yL6WN%2FSz0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864bede95036f-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:07:40.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:40.512 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:41.836 [main] DEBUG com.intuit.karate - response time in milliseconds: 1323
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fc01f11c-224b-4e61-955a-c01f82f39546
+1 < x-runtime: 0.085552
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uAKNhJQfh%2BsCT0RBY709lNzY45bqp6%2BdivzOI4tDU9NPpJJZymDtfLm7wpJPf3y4FNLRAfQZu3Wf73LitaY%2BI61kzJY3e3uF9Ku8SI2MRscH0VPaPGSMX8nk2YOXWJE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864c46918259a-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:07:41.848 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:41.850 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:42.858 [main] DEBUG com.intuit.karate - response time in milliseconds: 1008
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:07:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: b27de6b8-6c20-4e9a-b7ed-ae9ace277bde
+1 < x-runtime: 0.041129
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C749sy%2BOptZVEHa0BL0zNd94BnVgaSrYdaS0jifmxEdrcuy4hzFG1qj6lW7dcjY6z7VYgitvJ5664WkMTxVowS0WpoBR%2FPcEGlPYcqizV6xnW280F7yumwQ0a%2BRmW14%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864cdbde431f0-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:07:42.865 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:07:42.878 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:42.880 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:07:43.766 [main] DEBUG com.intuit.karate - response time in milliseconds: 885
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:07:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fd89a632-d254-418e-8d29-43054e3dcf02
+1 < x-runtime: 0.018408
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KzXFYh4IxQS%2F9fo%2B1i%2FNncEtu5au8GT%2FWZIzE1C3iRVld8yRiANg3Cxwd41rO4CJI62BgrB8TWVLD0vgz631V0gjH71VXOXvnltY7b%2BtUKPrM%2FBKXq6PWAgFogI1WRY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830864d52e86049e-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:08:01.634 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:01.878 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:01.960 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:03.136 [main] DEBUG com.intuit.karate - response time in milliseconds: 1165
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e556c869-f992-4b71-8849-1e50e5cc59f9
+1 < x-runtime: 0.034337
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=81WNai9yLrVgoOw%2FZ%2Bd8H53roZF1UTrBUV36gKr9jwZ2GUtsame5p8qtnUrA0RSFvC5lGPKDaLOXslmsjoQa4xy%2BoCWOnJHFMXeoiFlPvOXzwkryGZcmcAAyjEWr5SI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086548f97f1b29-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:08:03.142 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:03.143 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:04.276 [main] DEBUG com.intuit.karate - response time in milliseconds: 1133
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f46fb81d-d136-4dcd-8578-3f7982149a55
+1 < x-runtime: 0.019138
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YA4nURv1%2Fi1hShjbPYpJlggjBvYYw5fLLPC30DlGXGjLmFmvtA6vq9ludNeAw65sUyeB2pua2I6X0wiVGLSRqgnS7m19aEPl9iSqPgh9ypCz8OX8QzB1Ei%2Fu2m9I0hA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830865538dd402cf-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:08:04.295 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:04.297 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543/posts
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:05.387 [main] DEBUG com.intuit.karate - response time in milliseconds: 1089
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"a28151ff63fd547dfa1e84a72368d4dc"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/posts?page=1
+1 < x-links-next: 
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 1
+1 < x-pagination-total: 1
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 08cc57e9-7e22-4892-b54a-525ffa31bc82
+1 < x-runtime: 0.038169
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DDzGYYP03xCyEV9saFKdAPD0CnjbD2TviDu4sEH2z%2FNdfaC9rL3XO%2B85jENKOpFCYwSoy0IsCHDHY5n7yA1YF8rjiebQq7holicYB2xwW7kcxlpp3scKAZ4Zkbl060o%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086557480200f7-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[{"user_id":5710543,"id":84712,"title":"Thymum universe conculco tutis thermae caelestis casso ter.","body":"Cunae illo tam. Accommodo aperiam trado. Communis quisquam cruciamentum. Decipio vesica considero. Caveo audentia perspiciatis. Tonsor venio anser. Tabesco confugo suggero. Thermae cupio temptatio. Despirmatio ventus cursim. Laudantium victoria sodalitas. Delectus quo animus."}]
+22:08:05.391 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:25
+And match response.data[0].user_id == 5710543
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  5710543
+
+classpath:prova/gorest/gorest.feature:25
+22:08:05.395 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:05.397 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:06.616 [main] DEBUG com.intuit.karate - response time in milliseconds: 1218
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:08:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f79f7f94-448a-4a4a-86b7-b5e85eb94876
+1 < x-runtime: 0.025735
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oxv82wDQHSoHEf6PCAUjbR6ovd6q2lLt%2BSw%2F9VKjsuJ7eju3Q4t4ubIsKJ7ePji7sLhN4DKKdBAw8WKaXGP20RbefN0JFFvxLW24OvNXk48Y5uAWq%2Bt1GSlW2pa7SbM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308655e5cbd6457-GIG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:08:27.757 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:28.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:28.079 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:29.379 [main] DEBUG com.intuit.karate - response time in milliseconds: 1287
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5a7ab0cb-b114-4c78-832f-cce54cbe941e
+1 < x-runtime: 0.035389
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LfIYat5c8%2F7ID5QE3n69IUGVld9dcMLpcc6oK%2F4fwH4LtEnibpgU5JY5LGlSaiO15OqBJcu0kwbiGk2iv7Uqh2g%2B8pAirOGx5Pp2ENNuf8mIgsWS%2BniopHCfzCJrVmg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830865f03c0bd337-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:08:29.385 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:29.386 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:30.679 [main] DEBUG com.intuit.karate - response time in milliseconds: 1293
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 36af46a4-8cf4-42ec-b313-c2b649a01e63
+1 < x-runtime: 0.025201
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2BBfpWNiqCdlsaVVW1FIaCyrzeqwAsIOzLzhtwFh3AWcBcwmstt6sjeJAvwU7ckzE%2FHvjp93seGq32rqdkrNRVGm9U5vdD1dWmmBF2OZXR4MxKZWUTNJ%2BYQF2Ry1tf8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830865f63b726dcd-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:08:30.698 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:30.700 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:31.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 1208
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:08:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 44c2e9e1-9866-401e-8fc8-46934c8e05a8
+1 < x-runtime: 0.016808
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iLtyAuRhA%2Fsg0je1vDOvpxAgV85p4SYono1m76kvaZK%2B902GolhzLOqygxuMD40H%2FcymXGOF%2Bhu%2FnxU2O0G4uCzfbFrAJ8HIVWCQx9FbTCtDjMYzCQAPDYRDYjpO%2Bis%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830866003bbfd52a-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:08:38.343 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:38.584 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:38.663 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:39.814 [main] DEBUG com.intuit.karate - response time in milliseconds: 1139
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d22a2344-f031-464e-a620-86360e2288b8
+1 < x-runtime: 0.038784
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2cdRWBEd%2BV4z3JXtAQZ5y7T0XASuJJVwg2CXt231ZlPtbI8w58vj43rqePCn3DJzWLUNmmwTuMYoXi5UH%2F%2BwxlXAFpEbSePdUlnSwUGG%2BxHRyv1HIJ6qyb6XBZLKfv4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086632bb1e02dd-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:08:39.819 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:39.821 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:41.059 [main] DEBUG com.intuit.karate - response time in milliseconds: 1237
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ac68e328-5b7a-4523-9861-1ddaf1e1fd83
+1 < x-runtime: 0.018623
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jNNE0vArBHrsv9zvGu%2FDwPanuGs9BzVMt48%2FTF4mZ4vh1fYbbDPs7cvkpZSQtHpQXhqehKs0Np5zDorjLOpE46%2BMdoalZ%2BQoZlPlSfwhuCAd35ne5y4fOHPsskSXJfI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308663749fc4c30-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:08:41.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:41.073 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:41.757 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:08:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 86ca1eff-4b61-4fee-b57b-e53eac3fe421
+1 < x-runtime: 0.025687
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=agCP%2FehoY0Jk2iC2tHyuef9NwFPmg84v%2FcBx3QYjYUS8Ye9GJ6VwWreSU21MzYwhnuFSuK6G47%2BqzU5bg6VzsaxoGne7m7kk1PpYVm5%2FxVvw5J8sqTsGY4AsCzqC0yU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308663eea9531f8-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:08:58.392 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:08:58.634 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:58.714 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:08:59.874 [main] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:08:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 268
+1 < x-pagination-total: 2671
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6162ee92-7fef-4483-a786-d93522ff571c
+1 < x-runtime: 0.041712
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B3D2kFUQtsUjsnEBwxDITR95YnLY7XkbpNptFvaZHur8mg2gyTC733sPvVLCto9CeuIZ6eeO4H%2B7tmPt9zVtRiA6%2Fa9OdH3YzodQ5w627P7o6xFPGrsbkh393AU3OBc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830866b02ddf1c90-AMS
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:08:59.880 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:08:59.881 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:00.983 [main] DEBUG com.intuit.karate - response time in milliseconds: 1102
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:09:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d9038a5d-d8d6-4f5b-942f-80fe4801d571
+1 < x-runtime: 0.019948
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mmsC%2FVDBDwMCoh12pOYpmRCM4FrByhV2%2FEYg2dxE5TGFTROkCmohuXGhrPUF1ujbOOEO%2F6CUZuUEeeAcQohzpq6Jd%2FSlP0khB11rStII7V8mloRJ798DBTcCgEaIJN0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830866b2c9281af4-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:09:00.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:00.998 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:02.010 [main] DEBUG com.intuit.karate - response time in milliseconds: 1012
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:09:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 98d7b516-4099-4c45-9bac-0c0aca8e212b
+1 < x-runtime: 0.016561
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kSornjyOArF7APtjb36M1jE0uuUFcOsXYDGTSgBYTmjBPJSWxB9jJt%2F3uH4IWCeFW6kCRoOgOyhNygYghcw7DvJW6qp7a%2FYWYcI35oqu%2FnmBoKEs7dPONFFgLWyvgk8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830866be0c5c0342-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:09:39.631 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:09:39.877 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:39.955 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:41.344 [main] DEBUG com.intuit.karate - response time in milliseconds: 1381
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:09:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 267
+1 < x-pagination-total: 2670
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: cc2931ac-366f-47e1-817b-89a80ab47e49
+1 < x-runtime: 0.034847
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D7hWj3hiUP01l1Hus30X%2BKQDFTBsuiIdi34Cbu5Wcw1gAUkuaOr96CbEPsIhX9m239NGT%2FY7SNpaHhApiLRIdRuQIDCnf%2FoOfrZI056GpSSVKnCX8tzEZ%2BKu7Dh5KnQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830867b16954d408-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:09:41.349 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:41.351 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:42.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 905
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:09:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 65a11cba-32f2-497d-9cc9-7247d1c3c392
+1 < x-runtime: 0.016383
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QY6btb7asvos15Z319etJmbpxTQmsJN6e0HKMtiNnA5RdbqWtPD5pefyOD2BcYLkpboTXsoIlVy0LzXKuIUrX5P%2BTxeSdW47ICEjFwOximLL%2B%2FwthY2REvGf7d4TFto%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830867b988a9d38f-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:09:42.270 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:42.271 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts/1830420/comments
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:43.588 [main] DEBUG com.intuit.karate - response time in milliseconds: 1317
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:09:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 0
+1 < x-pagination-total: 0
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: a70a75c0-1637-42ea-bf7c-f5ae4f2b7c36
+1 < x-runtime: 0.026262
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QnEGUxqBkA28MIFKhb8CJ4rXlApUqh0m7utIVyzxJ8sO4R6h1Gt6PB5AKdNgEHBJQcdCzr372WrJzomQxga6mHK4WJm8fu9iDJoMYe17nGausHBjLMc30Lh%2BQG32lL4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830867c00f92f114-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[]
+22:09:43.595 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:09:43.599 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:09:44.714 [main] DEBUG com.intuit.karate - response time in milliseconds: 1115
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:09:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 29eb46a4-3dc0-43b5-aeec-6d34ae03abd8
+1 < x-runtime: 0.020508
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a1CxQ0uGqVGz9UcPHYk4%2F5q0HC0JEc39nWG9y8JcDDcJkMLVyQDgqTTD7qzpyOV1WUNRop7NZ0iDxUI7hnlcBeM874QY2fnklGdkE7%2BFZHKiol5gCkzWflNl0roOYcQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830867c83a600e34-AMS
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:10:16.134 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:10:16.370 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:16.459 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:17.696 [main] DEBUG com.intuit.karate - response time in milliseconds: 1229
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 267
+1 < x-pagination-total: 2670
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: addced0d-d6ab-4892-85aa-3532dac4cc78
+1 < x-runtime: 0.047051
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=efTdfNoBBR6avId6UKuwym2kh4tCYcQn1oLjbLx14nGhpPamnPLCpjp%2Bw3WumRlYgKQosdcIWrrxVZ68IVHnX9VKG%2B%2BcdRkppA1E4caaM0iPoRbIbtmihredBqEDI3Y%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 83086891ad530130-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:10:17.702 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:17.704 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:18.916 [main] DEBUG com.intuit.karate - response time in milliseconds: 1211
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 27688928-d528-4c3d-a1c9-0733f16146be
+1 < x-runtime: 0.025741
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7CjYSh8eg4%2BCwmUDdiCr2yNLvE3BbaRQxomHOjRJB6MGffQqX3B7zfK5KHmnXZ1R%2FS4%2FyZQeeJY4U%2FW0hLdePM8Cakbv2f4pXspboJSl57Xkhb9g65e4vIR7wxGgJhA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308689918d600f9-GRU
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:10:18.931 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:18.932 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts/1830420/comments
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:20.024 [main] DEBUG com.intuit.karate - response time in milliseconds: 1092
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 0
+1 < x-pagination-total: 0
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 5dd4396f-17ea-4525-a1cb-6b718fb3aa76
+1 < x-runtime: 0.038672
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AScJKgpx%2B0fiqS%2FMxD94GDKQDSr26OWYJBr%2BDTw0lz5LKqnRiMabSiAaxTo3hyKxSpVf1u2MD68%2F%2FvezMfOvfnRJ65cCzmOt5L0yAtwoTHoKFM%2B7Z%2FOwLHH1Sydion8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830868a0c8195210-GRU
+1 < alt-svc: h3=":443"; ma=86400
+[]
+22:10:20.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:20.041 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:21.270 [main] DEBUG com.intuit.karate - response time in milliseconds: 1229
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:10:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: bc442652-d88a-40c0-a573-8ef729f56019
+1 < x-runtime: 0.026755
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EDbokW2GV%2FB%2BXV7O8K1SOSdTf9h%2BE%2Ftcq4D5W2qEFdnvILJhr%2BLV%2B5hCJofUNDV4R9aZMYnaJjMQyIhFQq8BPX67dwMVImL3BrJVAeFx3jEfPC5U2Z2kwaCLXC3fpW8%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830868ab4fa33c8c-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:10:21.276 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:21.277 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts/999/comments
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:22.702 [main] DEBUG com.intuit.karate - response time in milliseconds: 1424
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 0
+1 < x-pagination-total: 0
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 13a80725-d052-463b-8eb9-6be9e8872d7e
+1 < x-runtime: 0.044493
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0HxAJylIv49O5f7BfqJ0AVmJxuonGbg8O5oq3O%2FwxStZxDnUkNC7YEOCIjyNKOOf%2B8c5ZwCbMJEpIM51QydoszFtVRPRCzOLzFrLGheOCGSOvWk%2B8akSxQRFspc5%2FZY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830868b3de443cb6-CDG
+1 < alt-svc: h3=":443"; ma=86400
+[]
+22:10:22.703 [main] ERROR com.intuit.karate - classpath:prova/gorest/gorest.feature:38
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 1424, url: https://gorest.co.in/public/v2/posts/999/comments, response: 
+[]
+classpath:prova/gorest/gorest.feature:38
+22:10:55.412 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:10:55.647 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:55.726 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:56.315 [main] DEBUG com.intuit.karate - response time in milliseconds: 576
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"8a723c01f5dfa40aaf4e3d5855852a3f"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 267
+1 < x-pagination-total: 2670
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 97af9400-cde7-4476-8cff-f5ba8394b8b6
+1 < x-runtime: 0.031733
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xvXjWvwwzQiwcpQkryXUu05c13Mp1fJM%2FvCIJ3LIM%2FzGGi3nECZ7FswX9nQ6aJTxbGV%2FQNTNDuu6Gos2Ey5mwcmYKyJh8uwywW5o%2FztlkLfYLOix%2F9v4MuZCQ5DelTg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308698739e6646d-GIG
+1 < alt-svc: h3=":443"; ma=86400
+[{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"},{"gender":"female","name":"Gautam Pilla","id":5710542,"email":"gautam_pilla@ullrich.example","status":"inactive"},{"gender":"female","name":"Anang Nehru","id":5710541,"email":"anang_nehru@hermann-lindgren.example","status":"active"},{"gender":"female","name":"Bankimchandra Kaur","id":5710540,"email":"bankimchandra_kaur@osinski-greenholt.example","status":"active"},{"gender":"female","name":"Chaturaanan Sharma","id":5710539,"email":"chaturaanan_sharma@mueller.test","status":"active"},{"gender":"male","name":"Kalinda Menon","id":5710538,"email":"kalinda_menon@lynch-veum.test","status":"active"},{"gender":"female","name":"Gaurang Khanna","id":5710537,"email":"gaurang_khanna@nikolaus-donnelly.example","status":"inactive"},{"gender":"female","name":"Anjushree Nayar","id":5710536,"email":"nayar_anjushree@damore.example","status":"active"},{"gender":"female","name":"Akshata Kakkar","id":5710535,"email":"kakkar_akshata@rohan.example","status":"inactive"},{"gender":"female","name":"Rohan Johar CPA","id":5710533,"email":"johar_rohan_cpa@schiller.test","status":"inactive"}]
+22:10:56.321 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:56.322 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/5710543
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:57.544 [main] DEBUG com.intuit.karate - response time in milliseconds: 1222
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"85863960651a694e5b8b4a1ee6cd374d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e37aff89-a322-41a2-a0fa-b3af546d1622
+1 < x-runtime: 0.016908
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UAPifZd2GhLLAGlp4JtWF8W8LdcrOeOZY%2FYk7T7mTAydCiLoz0wVcjideek2QO33QAsQOgT%2BKc6uylM31hxZagDGqO%2FGIq%2FS5pQZbeb9PW5cVahUilPh054J%2BhzyZL4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308698ebf3b0151-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"gender":"male","name":"Karthik Sethi","id":5710543,"email":"karthik_sethi@stroman-rowe.test","status":"active"}
+22:10:57.559 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:57.560 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts/1830420/comments
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:10:58.952 [main] DEBUG com.intuit.karate - response time in milliseconds: 1391
+1 < 200
+1 < Date: Tue, 05 Dec 2023 01:10:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 0
+1 < x-pagination-total: 0
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 1ac156ef-1dc6-4b6c-a56b-d362caaeb2f7
+1 < x-runtime: 0.020590
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FXx%2BPvEtZHbCKYM0zLB%2F%2BiNZv00LUE%2FU198zJ3mL2p7b5YbkTUOJsxRvu50LmTIqUXn4LHUAJ%2F1SMIMWhHAuJPgMWiuMQjyBI7%2BWC8wOCsnR24MjmAptOd7SO8ZDEns%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830869942ef04c26-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[]
+22:10:58.955 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:58.956 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/999
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:11:00.183 [main] DEBUG com.intuit.karate - response time in milliseconds: 1226
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:11:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e9496e37-a20e-475b-89d8-46451e348274
+1 < x-runtime: 0.016807
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zNFGYeyZ0LGq0cNw5g4J21C%2Bu6tPwkRtkC%2FXSs8LXXxhePoyrt0vBNbOa8RUEcK%2BZ2wR%2B60mXbt9Ub62QaruqRJ41g%2BoY3xdYXJEXXT2FHlzOu12gI0T%2BLw5YAYjqgA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8308699eb91f0181-CDG
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+22:11:00.189 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:11:00.190 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/posts/12
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:11:01.412 [main] DEBUG com.intuit.karate - response time in milliseconds: 1222
+1 < 404
+1 < Date: Tue, 05 Dec 2023 01:11:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 6067aeac-d49c-4266-be19-ddab425566d3
+1 < x-runtime: 0.029952
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Npkp0FkzHNDNSwovCaJx27Vpb2eiKXz23o4cd1aTZSi%2FiulQDTgxD1A5jVeUy4GJq3R7Gj13OaMV5sdmnvi9R1wAgePoFfiLQVE7U1hjpV5ymV3%2B9SnIG%2BkjpYgEN5Q%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 830869a79dd26602-AMS
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
